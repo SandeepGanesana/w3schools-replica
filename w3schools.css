@@ -1,0 +1,130 @@
+body{
+  margin:0px;
+  font-family: Verdana,sans-serif;
+  line-height:1.5;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+#w3row{
+  margin: 0px;
+  height: 57px;
+  background-color:#fff;
+  display:block;
+  padding: 15px 0 0 0;
+  margin-bottom:-15px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+}
+#w3link{
+  font-family: 'fontawesome';
+  text-decoration:none;
+  font-size: 37px;
+  color:#444444;
+  letter-spacing:3px;
+  padding:15px;
+  width:270px;
+  float: left;
+  line-height:1;
+  position:relative;
+}
+#w3link span{
+  color:#4CAF65;
+  
+}
+#w3link a{
+  font-family:'fontawesome';
+  text-decoration:none;
+}
+#righthead{
+  float:right;
+  margin:20px 10px 5px 30px;
+  font-family: "Segoe UI",'Arial,sans-serif';
+}
+/*----------End OF Header------------*/
+/*----------End OF Header------------*/
+/*----------End OF Header------------*/
+#navbar{
+  background-color:#4CAF50;
+  height:70px;
+  font-size:18px;
+  font-family:"Segoe UI",Arial,sans-serif;
+  box-shadow:  0 2px 4px  rgba(0,0,0,0.16);
+  margin-left:-40px;
+
+}
+ul#mainnav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #4CAF50;
+    letter-spacing: 1.2px;
+}
+ul#mainnav li{
+  float: left;
+  margin:0px;
+}
+ul#mainnav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 42px;
+}
+.material-icons {
+  clear: right;
+  
+  
+}
+ul#mainnav li a:hover {
+  background-color:white;
+  color:black;
+}
+ul#mainnav li a#globe{
+  float: right;
+}
+/*----------------NavBarEnds---------------*/
+/*----------------NavBarEnds---------------*/
+/*----------------NavBarEnds---------------*/
+#leftcol{
+  width:230px;
+  height:2425px;
+  background-color:	white;
+  box-shadow:  0px 0px 6px 1px rgba(0,0,0,0.16);
+ padding: 10px 0px;
+ display: inline-block;
+ float: left;
+}
+.leftcolcomponents{
+  display: block;
+  text-align: left;
+  font-weight:500;
+  font-size: 21px;
+  margin: 20px 16px 20px 8px ;
+  padding: 0px 10px;
+}
+a.sidenavcontent{
+  display:block;
+  text-decoration: none;
+  padding: 5px 16px ;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color:black;
+  font-weight: 500;
+  height:24px;
+  
+}
+
+#leftcol a.sidenavcontent:hover{
+  background-color:#ccc;
+ }
+/*---------------content---------------------*/
+/*---------------content---------------------*/
+/*---------------content---------------------*/
+#rightcol{
+  float: left;
+  display: inline-block;
+
+
+
+}
