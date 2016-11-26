@@ -121,10 +121,50 @@ a.sidenavcontent{
 /*---------------content---------------------*/
 /*---------------content---------------------*/
 /*---------------content---------------------*/
-#rightcol{
-  float: left;
-  display: inline-block;
+#rightcol
+  {
+    display: block;
+    width: auto;
 
 
+  }
+#conleft1
+  {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 3%; 
+    background-color: grey;
+  }
+#conleft1 h1
+  {
+    font-size: 80px;
+    color: #555555;
+    margin: 2px 0 -20px 0;
+    font-weight: 400;
+    
+  }
+#conleft1 p
+  {
+    font-size: 24px;
 
-}
+  }
+#conleft1 .button
+  {
+    font-size: 16px; 
+    background-color: #616161;
+    text-decoration: none;
+    color: white;
+    margin: 5px 5px 5px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+
+
+#conright
+  {
+    display: block;
+    float: right;
+  }
