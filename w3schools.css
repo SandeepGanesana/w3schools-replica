@@ -1,32 +1,37 @@
 body{
-  margin:0px;
-  font-family: Verdana,sans-serif;
-  line-height:1.5;
+    margin: 0px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 #w3row{
   margin: 0px;
-  height: 57px;
+  height: 37px;
   background-color:#fff;
   display:block;
-  padding: 15px 0 0 0;
-  margin-bottom:-15px;
-  font-family: "Segoe UI",Arial,sans-serif;
-  font-weight: 400;
+  padding: 8px 16px!important;
+  margin-top: 5px;
+  
+     
 }
+
 #w3link{
   font-family: 'fontawesome';
   text-decoration:none;
   font-size: 37px;
-  color:#444444;
   letter-spacing:3px;
-  padding:15px;
+  padding: 8px 16px;
   width:270px;
+  font-weight: 400;
   float: left;
   line-height:1;
+  font-family: "Segoe UI",Arial,sans-serif;
   position:relative;
+  color: #555555;
+  line-height: 1;
 }
 #w3link span{
   color:#4CAF65;
@@ -38,19 +43,29 @@ body{
 }
 #righthead{
   float:right;
-  margin:20px 10px 5px 30px;
+  letter-spacing: 4px;
+  position: relative;
+  top: 10px;
+  margin-top: 20px;
   font-family: "Segoe UI",'Arial,sans-serif';
 }
 /*----------End OF Header------------*/
 /*----------End OF Header------------*/
 /*----------End OF Header------------*/
+#mainnav
+ {
+  width: auto;
+  height:57px;
+  padding: 0px;
+ }  
 #navbar{
   background-color:#4CAF50;
-  height:70px;
-  font-size:18px;
+  height:57px;
+  font-size:17px;
   font-family:"Segoe UI",Arial,sans-serif;
   box-shadow:  0 2px 4px  rgba(0,0,0,0.16);
-  margin-left:-40px;
+  margin: 0px;
+  
 
 }
 ul#mainnav{
@@ -67,15 +82,13 @@ ul#mainnav li a{
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
-    height: 42px;
 }
-.material-icons {
-  clear: right;
-  
-  
-}
+#icons1
+  {
+  float: right;
+  }
 ul#mainnav li a:hover {
   background-color:white;
   color:black;
@@ -106,8 +119,8 @@ ul#mainnav li a#globe{
 a.sidenavcontent{
   display:block;
   text-decoration: none;
-  padding: 5px 16px ;
-  font-size: 18px;
+  padding: 0px 16px ;
+  font-size: 16px;
   letter-spacing: 1px;
   color:black;
   font-weight: 500;
@@ -191,6 +204,10 @@ a.sidenavcontent{
   display: block;
  }
 
+#boxright
+  {
+    padding:3%;
+  }
 
 #conright
   {
@@ -198,7 +215,7 @@ a.sidenavcontent{
     display: block;
     float: right;
     background-color: #f1f1f1;
-    padding: 16px 5px 25px 8px ;
+    padding: 0.01em 16px;
     margin: 10px 15px 20px 10px;
 
   }
@@ -206,8 +223,8 @@ a.sidenavcontent{
   {
     background-color: white;
     padding: 10px 15px 10px 10px ;
-    margin: 20px 0;
-
+    margin: 0px 0px;
+    width: auto;
   }
 
 #htmlex
